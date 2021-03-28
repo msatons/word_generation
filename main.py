@@ -1,7 +1,7 @@
 import re
 import argparse
 
-parser = argparse.ArgumentParser(description='Password generator v1.0')
+parser = argparse.ArgumentParser(description='Word generator v1.0')
 parser.add_argument('word', type=str, help='Word to generate')
 parser.add_argument('file_name', type=str, help='Word to generate')
 args = parser.parse_args()
